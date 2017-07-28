@@ -14,8 +14,8 @@ a:visited{
 }
 .clock{
   background-color:#F3FAB6;
-  width:250px;
-  height:150px;
+  width:302px;
+  height:151px;
   border-radius:10px;
   border:1px solid black;
   margin-top:40px;
@@ -23,12 +23,18 @@ a:visited{
   box-shadow: 5px 5px 5px #92966F;
 }
 .progress-bar{
-  width:49px;
+  width:0px;
+  overflow:visible;
+  color:black;
+  text-align:right;
 }
 .progress{
-  width:248px;
+  width:300px;
   background-color:#F3FAB6;
   border-radius:10px;
+  border-top-right-radius:0px;
+  border-top-left-radius:0px;
+  text-align:center;
 }
 .settings{
   margin:0 30px 30px 30px;
@@ -52,12 +58,13 @@ a:visited{
   border:4px double black;
   padding-top:-5px;
   padding-bottom:5px;
-  margin:15px 30px 10px 30px;
+  margin:16px 30px 10px 30px;
   background-color:#A8CD1B;
 }
 .session{
   margin-top:-20px;
-  font-size:18px;
+  font-size:20px;
+  margin-bottom:0px;
 }
 .timer:hover{
   cursor:pointer;
